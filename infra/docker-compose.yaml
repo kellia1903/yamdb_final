@@ -10,7 +10,8 @@ services:
       - ./.env
 
   web:
-    build: ../api_yamdb/
+    # build: ../api_yamdb/
+    image: kellia1903/api_yamdb:latest
     restart: always
     volumes:
       - static_value:/app/static/
