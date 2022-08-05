@@ -2,11 +2,9 @@ from django.shortcuts import get_object_or_404
 from rest_framework import serializers
 from rest_framework.exceptions import ValidationError
 from rest_framework.relations import SlugRelatedField
-
-from reviews.models import (
-    Category, Comment, Genre, Review, Title, User,
-    USERNAME_LENGTH, EMAIL_LENGTH, CONFIRMATION_CODE_LENGTH
-)
+from reviews.models import (CONFIRMATION_CODE_LENGTH, EMAIL_LENGTH,
+                            USERNAME_LENGTH, Category, Comment, Genre, Review,
+                            Title, User)
 from reviews.validators import UserValidator, validate_year
 
 
