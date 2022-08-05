@@ -57,7 +57,7 @@ docker-compose exec web python manage.py loaddata fixtures.json
 
 ## Проект доступен по ссылке ##
 
-https://158.160.5.172
+  https://158.160.5.172
 
 ## Разработчик ##
   - [Никита Цыбин](https://github.com/kellia1903)
