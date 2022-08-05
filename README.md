@@ -55,5 +55,9 @@ docker-compose exec web python manage.py loaddata fixtures.json
 
 Для её просмотра нужно перейти на эндпоинт `http://127.0.0.1:8000/redoc/`.
 
+## Проект доступен по ссылке ##
+
+https://158.160.5.172
+
 ## Разработчик ##
   - [Никита Цыбин](https://github.com/kellia1903)
