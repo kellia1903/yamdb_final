@@ -44,7 +44,7 @@ docker-compose exec web python manage.py createsuperuser
 ```
 docker-compose exec web python manage.py collectstatic --no-input
 ```
-### 7. Теперь можно наполнить БД тестовыми записями, файл fixtures.json находится в infra_sp2. Выполните команду: ###
+### 7. Теперь можно наполнить БД тестовыми записями, файл fixtures.json находится в infra. Выполните команду: ###
 ```
 docker cp fixtures.json <CONTAINER_ID_api_yamdb_web>:/app/
 docker-compose exec web python manage.py loaddata fixtures.json
@@ -57,7 +57,7 @@ docker-compose exec web python manage.py loaddata fixtures.json
 
 ## Проект доступен по ссылке ##
 
-  http://158.160.5.172
+    http://158.160.5.172
 
 ## Разработчик ##
   - [Никита Цыбин](https://github.com/kellia1903)
